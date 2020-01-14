@@ -39,7 +39,7 @@ const ContactForm = (props) => {
                     placeholderText={t('MobileNo_PlaceHolder')}
                     labelText={t('MobileNo_Label')}
                     pattern="[0-9]{10}"
-                    required={true}
+                    required="true"
                     minlength="10"
                     maxlength="10"
                 />
